@@ -78,7 +78,7 @@
     border-radius: 10px;
 }
 
-.Why { 
+div.Why { 
     border-radius: 25px;
     background: #c4c4c4;
     padding: 10px;
@@ -86,7 +86,7 @@
     color: black;
 }
 
-.h2 {
+.aboutsection {
     border-radius: 25px;
     background: #6671D1;
     padding: 10px;
