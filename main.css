@@ -1,0 +1,63 @@
+.box {
+    background: #6671D1;
+    border-radius: 25px;
+}
+
+.Logo {
+    border-radius: 25px;
+    background: #6671D1;
+    padding: 10px;
+    float: left;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#mission {
+    padding: 10px;
+}
+
+.About {
+    background: #00F782;
+    border-radius: 25px;
+    padding: 10px;
+    float: left;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.Contact {
+    background: #00F782;
+    border-radius: 25px;
+    padding: 10px;
+    float: left;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.Logo:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .95;
+}
+
+.About:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .9;
+}
+
+.Contact:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .9;
+}
+
+.Nav {
+    border-radius: 25px;
+    margin: 5px;
+    padding: 10px;
+    overflow:hidden
+}
