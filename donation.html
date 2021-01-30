@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <title>Donation</title>
   <link rel="stylesheet" href="simple-css-main/simple.css">
   <link rel="stylesheet" href="main.css">
 
-  </head>
-  <body>
-    <center>
+</head>
+
+<body>
+  <center>
     <header>
       <div class="Nav">
-      <a href="index.html"><img src="internet3.jpg" class="logoimage" width="160" height="160" style="opacity: 1"></a> 
-          <h1><a class="Index" href="index.html">Internet For All</a></h1>
-          <h1><a class="About" href="about.html">About</a></h1>
-          <h1><a class="Contact" href="contact.html">Contact</a></h1>
-      </div>   
+        <a href="index.html"><img src="internet3.jpg" class="logoimage" width="160" height="160" style="opacity: 1"></a>
+        <h1><a class="Index" href="index.html">Internet For All</a></h1>
+        <h1><a class="About" href="about.html">About</a></h1>
+        <h1><a class="Contact" href="contact.html">Contact</a></h1>
+      </div>
     </header>
-      
+
     <h1>Donation</h1>
     <h3>Send BTC to this address</h3>
     <img src="barcode.png" alt="Barcode">
     <form action="fake.html">
       <div class="slidecontainer">
-      <p>Amount:</p>
-      <p id="output"></p>
-      <input type="range" min="0" max="10000" value="50" step="5" class="slider" id="amount">
-    </div>
-      <p>  
+        <p>Amount:</p>
+        <p id="output"></p>
+        <input type="range" min="0" max="10000" value="50" step="5" class="slider" id="amount">
+      </div>
+      <p>
 
-        <label>First name</label><br>  
+        <label>First name</label><br>
 
-        <input type="text" name="first_name">  
+        <input type="text" name="first_name">
 
-      </p>  
-      <p>  
+      </p>
+      <p>
 
-      <label>Last Name</label><br>  
-      <input type="text" name="surname">  
+        <label>Last Name</label><br>
+        <input type="text" name="surname">
 
-    </p>  
+      </p>
 
-    <p>  
-      <label>Email</label><br>  
-      <input type="email" name="email" required="">  
-    </p> 
-    <button style="background: #6671d1">Send</button> 
+      <p>
+        <label>Email</label><br>
+        <input type="email" name="email" required="">
+      </p>
+      <button style="background: #6671d1">Send</button>
 
     </form>
-     <head>
+
+    <head>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
       <link rel="manifest" href="/site.webmanifest">
     </head>
-    
-      
-      <h6>Legal Disclaimer this Donation page is fake and a student project</h6>
 
-      </body>
+
+    <h6>Legal Disclaimer this Donation page is fake and a student project</h6>
+
+</body>
 </center>
+
 </html>
 
 <script>
@@ -66,7 +70,7 @@
   var output = document.getElementById("output");
   output.innerHTML = `$${slider.value} (~ 0.0015 BTC)`; // Display the default slider value
   // Update the current slider value (each time you drag the slider handle)
-  slider.oninput = function() {
+  slider.oninput = function () {
     output.innerHTML = `$${this.value} (~ ${this.value * 0.000029} BTC)`;
   }
 </script>
