@@ -1,5 +1,5 @@
 https://gomberg5264.github.io/team/
-By Maxwell Gomberg, Donato Fiore,
+By Maxwell Gomberg, Donato Fiore, Aj Duffy
 
 MIT License
 
