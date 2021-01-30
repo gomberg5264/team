@@ -144,3 +144,23 @@ div {
   resize: horizontal;
   overflow: auto;
 }
+
+*{
+box-sizing: border-box;
+}
+
+html, body{
+height: 100%;
+margin: 0;
+}
+.container{
+padding: 0;
+min-height: 100;
+
+margin-top: 0px;
+margin-bottom: -70px;
+margin-right: auto;
+margin-left: auto;
+
+
+}
