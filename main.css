@@ -72,13 +72,9 @@
     margin-right: 40%;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
 .logoimage {
     float: left;
     max-width: 100%;
     border-radius: 10px;
 }
+
