@@ -78,3 +78,17 @@
     border-radius: 10px;
 }
 
+.Why { 
+    border-radius: 25px;
+    background: #c4c4c4;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+}
+
+.h2 {
+    border-radius: 25px;
+    background: #6671D1;
+    padding: 10px;
+    margin: -10px;
+}
