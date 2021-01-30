@@ -40,19 +40,19 @@
 .Logo:hover {
     cursor: hand;
     cursor: pointer;
-    opacity: .95;
+    opacity: .85;
 }
 
 .About:hover {
     cursor: hand;
     cursor: pointer;
-    opacity: .9;
+    opacity: .75;
 }
 
 .Contact:hover {
     cursor: hand;
     cursor: pointer;
-    opacity: .9;
+    opacity: .75;
 }
 
 .Nav {
@@ -77,3 +77,8 @@
   color: black;
 }
 
+.logoimage {
+    float: left;
+    max-width: 100%;
+    border-radius: 10px;
+}
