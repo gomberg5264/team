@@ -63,8 +63,6 @@ postion: relative;
 
 }
 
-section{
-background-image: url("..//Images\\maxwell.gif");
 
 background-position: center center;
 background-size: 100% 100%;
@@ -129,5 +127,5 @@ nav a {
   padding: 0.5vh;
   text-decoration: none;
 
-  background-color: black;
+  background-color: grey;
 }
