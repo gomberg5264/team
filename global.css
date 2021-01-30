@@ -129,3 +129,18 @@ nav a {
 
   background-color: orange;
 }
+
+div {
+  resize: horizontal;
+  overflow: auto;
+}
+
+div {
+  resize: horizontal;
+  overflow: auto;
+}
+
+div {
+  resize: horizontal;
+  overflow: auto;
+}
