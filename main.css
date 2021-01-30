@@ -55,6 +55,12 @@
     opacity: .75;
 }
 
+.Donate:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .75;
+}
+
 .Nav {
     border-radius: 25px;
     margin: 5px;
@@ -91,4 +97,10 @@ div.Why {
     background: #6671D1;
     padding: 10px;
     margin: -10px;
+}
+
+a.box:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .75;
 }
