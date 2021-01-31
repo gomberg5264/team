@@ -20,7 +20,7 @@
   --text: #212121;
   --text-light: #585858;
   --border: #D8DAE1;
-  --accent: #0D47A1;
+  --accent: #000000;
   --accent-light: #90CAF9;
   --code: #D81B60;
   --preformatted: #444;
@@ -30,15 +30,16 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #212121;
-    --accent-bg: #2B2B2B;
-    --text: #DCDCDC;
-    --text-light: #ABABAB;
-    --border: #666;
-    --accent: #FFB300;
-    --accent-light: #FFECB3;
-    --code: #F06292;
-    --preformatted: #CCC;
+    --bg: #FFF;
+    --accent-bg: #F5F7FF;
+    --text: #212121;
+    --text-light: #585858;
+    --border: #D8DAE1;
+    --accent: #000000;
+    --accent-light: #90CAF9;
+    --code: #D81B60;
+    --preformatted: #444;
+    --marked: #FFDD33;
   }
 
   img, video {
@@ -405,4 +406,17 @@ pre code {
     background: none;
     margin: 0;
     padding: 0;
+}
+#loader {
+  align-items: center;
+  background: rgb(23, 22, 22);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s linear;
+  width: 100%;
+  z-index: 9999;
 }
