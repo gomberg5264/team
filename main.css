@@ -12,8 +12,8 @@ a.box:hover {
 }
 
 
-/* Home button on Nav bar */
-.Index {
+/* Nav bar settings */
+.Navbar {
     border-radius: 25px;
     background: #00F782;
     padding: 10px;
@@ -35,17 +35,6 @@ a.box:hover {
     padding: 10px;
 }
 
-/* About button on Nav bar */
-.About {
-    background: #00F782;
-    border-radius: 25px;
-    padding: 10px;
-    float: left;
-    margin: 5px;
-    text-decoration: none;
-    color: black;
-}
-
 /* Hover Function for About Button */
 .About:hover {
     cursor: hand;
@@ -53,16 +42,6 @@ a.box:hover {
     opacity: .75;
 }
 
-/* Contact button on Nav bar */
-.Contact {
-    background: #00F782;
-    border-radius: 25px;
-    padding: 10px;
-    float: left;
-    margin: 5px;
-    text-decoration: none;
-    color: black;
-}
 
 /* Hover Function for Contact Button */
 .Contact:hover {
