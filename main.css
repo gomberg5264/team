@@ -4,6 +4,14 @@
     border-radius: 25px;
 }
 
+/* For footers */
+a.box:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .75;
+}
+
+
 /* Home button on Nav bar */
 .Index {
     border-radius: 25px;
@@ -13,6 +21,13 @@
     margin: 5px;
     text-decoration: none;
     color: black;
+}
+
+/* Hover Function for Logo Button */
+.Logo:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .85;
 }
 
 /* Mission text formating */
@@ -31,6 +46,13 @@
     color: black;
 }
 
+/* Hover Function for About Button */
+.About:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .75;
+}
+
 /* Contact button on Nav bar */
 .Contact {
     background: #00F782;
@@ -42,25 +64,22 @@
     color: black;
 }
 
-/* Hover Function for Logo Button */
-.Logo:hover {
-    cursor: hand;
-    cursor: pointer;
-    opacity: .85;
-}
-
-/* Hover Function for About Button */
-.About:hover {
-    cursor: hand;
-    cursor: pointer;
-    opacity: .75;
-}
-
 /* Hover Function for Contact Button */
 .Contact:hover {
     cursor: hand;
     cursor: pointer;
     opacity: .75;
+}
+
+/* Donate Button */
+.Donate {
+    background: #c4c4c4;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 /* Hover Function for Donation Button */
@@ -76,17 +95,6 @@
     margin: 5px;
     padding: 10px;
     overflow:hidden
-}
-
-/* Donate Button */
-.Donate {
-    background: #c4c4c4;
-    border-radius: 25px;
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    margin-left: 40%;
-    margin-right: 40%;
 }
 
 /* formats the image on the nav bar */
@@ -113,9 +121,3 @@ div.textbox {
     margin: -10px;
 }
 
-/* For footers */
-a.box:hover {
-    cursor: hand;
-    cursor: pointer;
-    opacity: .75;
-}
