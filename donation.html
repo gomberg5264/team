@@ -62,11 +62,9 @@
 </html>
 
 <script>
-  var slider = document.getElementById("amount");
-  var output = document.getElementById("output");
-  output.innerHTML = `$${slider.value} (~ 0.0015 BTC)`; // Display the default slider value
-  // Update the current slider value (each time you drag the slider handle)
-  slider.oninput = function () {
-    output.innerHTML = `$${this.value} (~ ${this.value * 0.000029} BTC)`;
-  }
-</script>
+var value;
+function getBTCValue() {
+fetch('https://blockchain.info/tobtc?currency=USD&value=1')
+.then(response => response.json())
+.then(data => value = data);
+}
