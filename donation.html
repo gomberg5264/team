@@ -9,7 +9,8 @@
 </head>
 
 <body
-  style="background-image: url('https://github.com/gomberg5264/team/blob/main/wallpaper.jpg?raw=true');background-attachment: fixed;" onload="getBTCValue()">
+  style="background-image: url('https://github.com/gomberg5264/team/blob/main/wallpaper.jpg?raw=true');background-attachment: fixed;"
+  onload="getBTCValue()">
   <center>
     <header
       style="border-bottom: 0px;background-image: url('https://github.com/gomberg5264/team/blob/main/wallpaper.jpg?raw=true');background-attachment: fixed;">
@@ -62,11 +63,11 @@
 <script>
   var value;
   function getBTCValue() {
-  fetch('https://blockchain.info/tobtc?currency=USD&value=1')
-  .then(response => response.json())
-  .then(data => value = data); 
+    fetch('https://blockchain.info/tobtc?currency=USD&value=1')
+      .then(response => response.json())
+      .then(data => value = data);
   }
-  
+
 
   var slider = document.getElementById("amount");
   var output = document.getElementById("output");
