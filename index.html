@@ -1,4 +1,22 @@
+<style>
+
+    @keyframes change {
+        0% {
+            background-position: 0 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0 50%;
+        }
+    }
+</style>
+
 <!DOCTYPE html>
+
+
+
 <html>
 
 <head>
@@ -13,11 +31,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-
 </head>
 
-<body>
-    <header class="specialheader">
+<body style="background-image: url('https://i.redd.it/zypgbct91rvy.jpg');">
+    <header style="color:#fff;background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);background-size: 400% 400%;position: relative;animation: change 15s ease-in-out infinite;">
         <div class="Nav">
             <a href="index.html"><img src="internet3.jpg" class="logoimage" width="160" height="160"
                     style="opacity: 1"></a>
@@ -29,8 +46,11 @@
 
     <main>
         <div>
-            <h3><a class="Donate" href="donation.html">Donate</a></h3>
-
+            <center>
+            <h3>
+                <button onclick="location.href='donation.html';" style="width: 400px; font-weight:bold; font-size:25;">Donate</button>
+            </h3>
+            </center>
         </div>
         <div class="textbox">
             <h2 class="aboutsection">Our Mission</h2>
@@ -71,36 +91,20 @@
         </div>
     </main>
 
-    <footer>
+    <footer style="border-top: 0px solid var(--border);">
         <center>
             <div>
                 <p class="box" style="background: #6671D1;color: black;display: inline-block;padding: 10px;">Code-Athon 2021 Submission</p>
             </div>
-            <p class="box" style="background: #6671D1;color: black;display: inline-block;padding: 10px;">Legal
+            <p class="box" style="background: #6671D1;color: black;display: inline-block;padding: 10px;">                **Legal
                 Disclaimer
-                This is a student project and for educational purposes only</p>
+                This is a student project and for educational purposes only**</p>
             <br>
             <br>
             <a href="https://github.com/gomberg5264/team" class="box"
                 style="background: #6671D1;color: black;display: inline-block;padding: 10px;text-decoration: none;">Github</a>
         </center>
     </footer>
-   
-</div>
-    
-
-
-<div>
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
-
-
-
-
-
-
-
-
 </body>
 
 </html>
